@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  background-color: #2b2922;
+  font-family: "Montserrat";
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo {
+  position: absolute;
+  left: 7rem;
+}
+
+.navbar .nav-list {
+  color: #ffffff;
+  list-style-type: none;
+  display: flex;
+  margin-left: 40rem;
+}
+
+.nav-list .list-item {
+  font-size: 20px;
+  padding: 10px 25px;
+}
+
+.button {
+  font-size: 20px;
+  padding: 10px 25px;
+  background-color: transparent;
+  color: #a08f36;
+  border: 2px solid #a08f36;
+  border-radius: 8px;
+}
+
+.hero {
+  flex: 5;
+  display: flex;
+  margin-top: -30px;
+}
+
+.hero-heading {
+  color: #ffffff;
+  flex: 3;
+  margin: 7rem 0 110px 100px;
+  font-size: 70px;
+  letter-spacing: 2px;
+}
+
+.hero-desc {
+  color: #ffffff;
+  flex: 2;
+  left: 8rem;
+  margin: 104px 227px 20px 30px;
+  font-size: 20px;
+  padding: 36px;
+  line-height: 1.4;
+  opacity: 0.6;
+}
+
+.justice-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.move-buttons {
+  display: flex;
+  flex: 2;
+  justify-content: flex-end;
+  outline: none;
+  border: none;
+}
+
+.fas {
+  font-size: 60px;
+}
+.left-button {
+  color: #a08f36;
+  background-color: #39372d;
+  padding: 10px 20px;
+  opacity: 0.8;
+}
+.right-button {
+  color: #ffffff;
+  background-color: #a08f36;
+  padding: 10px 20px;
+}
